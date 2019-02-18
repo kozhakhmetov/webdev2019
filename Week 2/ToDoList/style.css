@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-image: url("images/background.jpg");
+    background-size: 1450px 700px;
+}
+
+.top-wrapper {
+    margin-top: 100px;
+    height: 60px;
+    text-align: center;
+}
+
+#input {
+    background: #fafafa;
+    border-radius: 3px;
+    border: black solid 1px;
+    width: 600px;
+    float: bottom;
+    font-size: 24px;
+    opacity: 0.8;
+    height: 40px;
+    position: relative;
+    font-weight: bold;
+}
+
+#button {
+    position: absolute;
+    margin-left: 10px;
+    height: 44px;
+    float: top;
+    width: 100px;
+    background: black;
+    color: #fafafa;
+    border-radius: 3px;
+    font-size: 15px;
+    border: #fafafa solid 1px;
+}
+
+body {
+    font-family: arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+#header {
+    background-color: black;
+    opacity: 0.8;
+    color: #fafafa;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+}
+
+.bottom-wrapper {
+    text-align:center;
+
+}
+
+.list {
+    width: 900px;
+    margin: auto;
+    height: 500px;
+    overflow: scroll;
+
+}
+
+
+.trash {
+    width: 50px;
+}
+
+.checkbox {
+    width: 50px;
+}
+
+.text {
+    text-align: center;
+    width: 800px;
+    font-size: 23px;
+    height: 30px;
+    color: #fafafa;
+}
+
+
+td {
+
+    border: solid #fafafa 2px;
+    border-radius: 10px;
+    background: black;
+    opacity: 0.8;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoList</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <p>ToDoList</p>
+    </div>
+
+    <div class="top-wrapper">
+        <input id="input" maxlength="100">
+        <button id="button">Add</button>
+    </div>
+    <div class="bottom-wrapper">
+        <div class="list">
+
+            <table id="table">
+
+            </table>
+        </div>
+    </div>
+
+    <script>
+        var ID = 1;
+        var button = document.getElementById("button");
+        button.onclick = function() {
+            var text = document.getElementById("input").value;
+            document.getElementById("input").value = "";
+            if (text == null) {
+                return;
+            }
+            var newTr = document.createElement("tr");
+            var checkboxTd = document.createElement("td");
+            var textTd = document.createElement("td");
+            var trashTd = document.createElement("td");
+            checkboxTd.className = "checkbox";
+            textTd.className = "text";
+            trashTd.className = "trash";
+            // language=HTML
+
+            var checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.onclick = drawLine;
+
+
+            checkboxTd.appendChild(checkbox);
+
+            textTd.innerHTML = "<p>" + text + "</p>";
+            trashTd.innerHTML = "<img src='images/trash.png' width='30px'>"
+            var myTable = document.getElementById("table");
+            trashTd.onclick = del;
+            newTr.appendChild(checkboxTd);
+            newTr.appendChild(textTd);
+            newTr.appendChild(trashTd);
+            myTable.appendChild(newTr);
+        }
+        var del;
+        del = function () {
+            this.parentElement.remove();
+        };
+        var drawLine = function () {
+            this.onclick = function () { return false; };
+            (this.parentElement).parentElement.style.textDecoration = "line-through";
+        }
+    </script>
+</body>
+</html>
