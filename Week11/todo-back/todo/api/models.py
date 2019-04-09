@@ -31,5 +31,5 @@ class Task(models.Model):
             'created_at': self.created_at,
             'due_on': self.due_on,
             'status': self.status,
-            'task_list': self.task_list.to_json()
+            'task_list': self.task_list.name
         }

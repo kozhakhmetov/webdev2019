@@ -28,7 +28,7 @@ def task_list_by_id(request, id):
 def get_tasks_by_id(request, id):
 
     try:
-        models = Task.objects.filter(id=id)
+        models = Task.objects.filter(task_list=id)
     except Task.DoesNotExist as e:
         return JsonResponse({'error': str(e)}, safe=False)
 
