@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d0ea6b0-aaad-40b7-9394-ca410fcf16e8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/api/views/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/views/fbv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn CSS/Selectors and Visual Rules/Selectors/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn CSS/Selectors and Visual Rules/Selectors/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn CSS/Selectors and Visual Rules/Visual Rules/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn CSS/Selectors and Visual Rules/Visual Rules/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn HTML/FashionBlog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn HTML/Forms/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn HTML/Forms/10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn HTML/Forms/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn HTML/Forms/3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn HTML/Forms/4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn HTML/Forms/5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn HTML/Forms/6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn HTML/Forms/7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn HTML/Forms/8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn HTML/Forms/9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn HTML/Forms/FormValidation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Codeacademy/Learn HTML/WineFestival.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Facebook/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Facebook/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Facebook/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Facebook/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Facebook/images/leftpic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Facebook/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Facebook/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Facebook/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Facebook/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Instagram/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Instagram/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Instagram/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Instagram/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Instagram/Instagram.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Instagram/images/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Instagram/images/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Instagram/images/phone-pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Instagram/images/reg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Instagram/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/Instagram/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/A class gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/A picture-perfect trip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/Apples and bananas.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/Colorful creature.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/Descendants of Khan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/Group the groupers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/Grouped animals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/Jump around.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/Poem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/Seasonal Ids.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/The dinner table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/You can learn text tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/Your learning list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/classes of elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/famous font formats.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/fancy font families.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/floating clouds.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/great big font sizes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/links you love.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/position planet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/the boxer model.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 1/KhanAcademy/Intro to HTML/the overflowing ocean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/D.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/E.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/F.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/G.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/H.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/I.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/J" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/K.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/L.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/M.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/N.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/O.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/P.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/Q.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/R.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Hackerrank/S.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Array/A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Array/B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Array/C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Array/D.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Array/E.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Function/A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Function/B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/IO/A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/IO/B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/IO/C.pu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/IO/C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/IO/D.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/IO/E.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/If/A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/If/B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/If/C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/If/D.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/If/E.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Loop/For/A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Loop/For/B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Loop/For/C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Loop/For/H.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Loop/For/I.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Loop/For/J.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Loop/For/K.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Loop/For/M.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Loop/While/A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Loop/While/B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Loop/While/C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Loop/While/D.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 10/Informatics/Loop/While/E.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 2/ToDoList/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 2/ToDoList/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 2/ToDoList/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 2/ToDoList/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 2/ToDoList/ToDoList.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 2/ToDoList/images/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 2/ToDoList/images/trash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 2/ToDoList/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week 2/ToDoList/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week11/todo-back/todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week11/todo-back/todo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week11/todo-back/todo/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week11/todo-back/todo/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week11/todo-back/todo/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week11/todo-back/todo/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week11/todo-front/src/app/main/main.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week11/todo-front/src/app/main/main.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week11/todo-front/src/app/models/task.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week11/todo-front/src/app/models/task.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week12/todo-back/todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week12/todo-back/todo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week12/todo-back/todo/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week12/todo-back/todo/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week12/todo-back/todo/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week12/todo-back/todo/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week12/todo-back/todo/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week12/todo-back/todo/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week12/todo-front/src/app/main/main.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week12/todo-front/src/app/main/main.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week12/todo-front/src/app/main/main.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week12/todo-front/src/app/main/main.component.ts" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+              <folding>
+                <element signature="e#628#660#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fbv.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/views/fbv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cbv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/views/cbv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decorators.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rest_framework/decorators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <folding>
+                <element signature="e#369#408#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rest_framework/views.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Task</find>
+      <find>get_query</find>
+      <find>look</find>
+      <find>field</find>
+      <find>lookup</find>
+      <find>lookup_field</find>
+      <find>request</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/api/admin.py" />
+        <option value="$PROJECT_DIR$/api/views.py" />
+        <option value="$PROJECT_DIR$/todo/settings.py" />
+        <option value="$PROJECT_DIR$/todo/urls.py" />
+        <option value="$PROJECT_DIR$/api/urls.py" />
+        <option value="$PROJECT_DIR$/api/models.py" />
+        <option value="$PROJECT_DIR$/api/views/auth.py" />
+        <option value="$PROJECT_DIR$/api/serializers.py" />
+        <option value="$PROJECT_DIR$/api/views/cbv.py" />
+        <option value="$PROJECT_DIR$/api/views/fbv.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="798" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="todo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="todo" type="Python.DjangoServer" factoryName="Django server">
+      <module name="todo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="todo.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d0ea6b0-aaad-40b7-9394-ca410fcf16e8" name="Default" comment="" />
+      <created>1554656081879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554656081879</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952926" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32848486" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32848486" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.13939394" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api/views/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" lean-forward="true" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rest_framework/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20450">
+          <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="69" column="31" lean-forward="true" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rest_framework/routers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="313" column="6" selection-start-line="313" selection-start-column="6" selection-end-line="313" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rest_framework/authtoken/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/-314704130/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="721" column="6" selection-start-line="721" selection-start-column="6" selection-end-line="721" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="233" column="36" selection-start-line="233" selection-start-column="36" selection-end-line="233" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="838">
+          <caret line="428" column="8" selection-start-line="428" selection-start-column="8" selection-end-line="428" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rest_framework/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="116" column="53" lean-forward="true" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rest_framework/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rest_framework/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="239" column="8" selection-start-line="239" selection-start-column="8" selection-end-line="239" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rest_framework/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#369#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/cbv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views/fbv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
