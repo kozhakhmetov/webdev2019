@@ -1,15 +1,34 @@
 <p>
   main works!
-</p>
+</p> -
+
+<!--CREATE CATEGORY:-->
+<div>
+<input type="text" [(ngModel)]="name" />
+<button (click)="createTask()">Create</button>
+</div>
+
+
+
 <ng-container *ngIf="!loading">
   Loading...
 </ng-container>
+
+
+
+
 <ng-container *ngIf="loading">
   <div>
-    <div *ngFor="let c of listOfTaskList" (click)="getTasks(c)" >{{c.id}} - {{c.name}}</div>
+    <div *ngFor="let c of listOfTaskList">
+      <span (click)="getTasks(c)">
+        <input type="text" [(ngModel)]="c.name" />
+      </span>
+      <span style="color: red" (click)="deleteTask(c)"> Delete</span>
+      <span style="color: green" (click)="updateTask(c)"> Edit</span>
+    </div>
   </div>
 </ng-container>
 
 <div>
-  <div *ngFor="let t of tasks">{{t.name}}  {{t.created_at}}  {{t.due_on}}  {{t.status}}  {{t.task_list}}</div>
+  <div *ngFor="let t of tasks">{{t.name}}  {{t.status}}  {{t.task_list}}</div>
 </div>

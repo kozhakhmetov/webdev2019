@@ -15,6 +15,9 @@ export class MainComponent implements OnInit {
 
   public tasks: TaskList[] = [];
 
+  public name: any = '';
+
+
   constructor(private provider: ProviderService) { }
 
   ngOnInit() {
@@ -29,6 +32,30 @@ export class MainComponent implements OnInit {
     this.provider.getTasksById(task.id).then(res => {
       this.tasks = res;
     });
+  }
+
+  deleteTask(c: Task) {
+    this.provider.deleteTask(c.id).then(res => {
+      console.log(c.name + ' deleted');
+      this.provider.getAllTaskLists().then(r => {
+        this.listOfTaskList = r;
+      });
+    });
+  }
+
+  updateTask(c: Task) {
+    this.provider.updateTask(c).then(res => {
+      console.log(c.name + ' updated');
+    });
+  }
+
+  createTask() {
+    if (this.name !== '') {
+      this.provider.createTaskList(this.name).then(res => {
+        this.listOfTaskList.push(res);
+        this.name = '';
+      });
+    }
   }
 
 }

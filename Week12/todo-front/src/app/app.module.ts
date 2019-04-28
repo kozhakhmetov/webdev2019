@@ -7,6 +7,7 @@ import { MainComponent } from './main/main.component';
 import { QComponent } from './q/q.component';
 import {ProviderService} from './services/provider.service';
 import {HttpClientModule} from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {HttpClientModule} from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [ProviderService],
   bootstrap: [AppComponent]
