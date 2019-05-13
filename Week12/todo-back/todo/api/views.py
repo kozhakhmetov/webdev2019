@@ -25,7 +25,7 @@ class TaskLists(View):
         serializer = TaskListSerializer(data=data)
         if serializer.is_valid():
             serializer.save()
-            return JsonResponse(serializer.data, status=201)
+            return JsonResponse(serializer.data, status=201, safe=False)
         return JsonResponse(serializer.errors)
 
 
@@ -48,14 +48,29 @@ class TaskList(View):
 
         task_list.delete()
         serializer = TaskListSerializer(task_list)
-        return JsonResponse(serializer.data)
+        return JsonResponse(serializer.data, safe=False)
+
+    def put(self, request, id):
+        try:
+            task_list = models.TaskList.objects.get(id=id)
+        except models.TaskList.DoesNotExist as e:
+            return JsonResponse({'error': 'tasklist with such id does not exist'}, safe=False, status=404)
+
+        data = json.loads(request.body)
+        serializer = TaskListSerializer(instance=task_list, data=data)
+        if serializer.is_valid():
+            serializer.save()
+            return JsonResponse(serializer.data, status=200, safe=False)
+        return JsonResponse(serializer.errors)
+
 
 
 class TasksById(View):
 
     def get(self, request, id):
+        #return HttpResponse("QWe")
         try:
-            tasks = models.Task.objects.get(task_list=id)
+            tasks = models.Task.objects.filter(task_list=id)
         except models.Task.DoesNotExist as e:
             return JsonResponse({'error': 'tasklist with such id does not exist'}, safe=False)
 
@@ -69,7 +84,7 @@ class TasksById(View):
         serializer = TaskSerializer(data=data)
         if serializer.is_valid():
             serializer.save()
-            return JsonResponse(serializer.data, status=201)
+            return JsonResponse(serializer.data, status=201, safe=False)
         return JsonResponse(serializer.errors, status=400)
 
 

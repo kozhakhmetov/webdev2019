@@ -33,3 +33,5 @@ class Task(models.Model):
             'status': self.status,
             'task_list': self.task_list.name
         }
+
+

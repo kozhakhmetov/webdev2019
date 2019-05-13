@@ -1,34 +1,44 @@
 <p>
   main works!
+  {{tok}}
 </p> -
 
-<!--CREATE CATEGORY:-->
-<div>
-<input type="text" [(ngModel)]="name" />
-<button (click)="createTask()">Create</button>
-</div>
-
-
-
-<ng-container *ngIf="!loading">
-  Loading...
-</ng-container>
-
-
-
-
-<ng-container *ngIf="loading">
+<ng-container *ngIf="!logged">
   <div>
-    <div *ngFor="let c of listOfTaskList">
-      <span (click)="getTasks(c)">
-        <input type="text" [(ngModel)]="c.name" />
-      </span>
-      <span style="color: red" (click)="deleteTask(c)"> Delete</span>
-      <span style="color: green" (click)="updateTask(c)"> Edit</span>
-    </div>
+    <div><input type="text" [(ngModel)]="login" /></div>
+    <div><input type="text" [(ngModel)]="password" /></div>
+    <div><button (click)="auth()">Log in</button></div>
   </div>
 </ng-container>
 
-<div>
-  <div *ngFor="let t of tasks">{{t.name}}  {{t.status}}  {{t.task_list}}</div>
-</div>
+<ng-container *ngIf="logged">
+  <!--CREATE CATEGORY:-->
+  <div>
+  <input type="text" [(ngModel)]="name" />
+  <button (click)="createTask()">Create</button>
+  </div>
+
+  <ng-container *ngIf="!loading">
+    Loading...
+  </ng-container>
+
+  <ng-container *ngIf="loading">
+    <div>
+      <div *ngFor="let c of listOfTaskList">
+        <span (click)="getTasks(c)" ng-readonly="true">
+          <input [readonly]="c.read_only" type="text" [(ngModel)]="c.name" />
+        </span>
+        <span style="color: red" (click)="deleteTask(c)"> Delete</span>
+        <span style="color: green" (click)="updateTask(c)"> Update </span>
+      </div>
+    </div>
+  </ng-container>
+
+  <!--<div>-->
+    <!--<div *ngFor="let t of tasks">{{t.name}}  {{t.status}}  {{t.task_list}}</div>-->
+  <!--</div>-->
+
+  <div>
+    <button (click)="logout()">Log out</button>
+  </div>
+</ng-container>

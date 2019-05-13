@@ -11,4 +11,9 @@ export interface TaskList {
   due_on: DateTimeFormat;
   status: string;
   task_list: string;
+  read_only: false;
+}
+
+export interface IAuthResponse {
+  token: string;
 }

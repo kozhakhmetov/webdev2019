@@ -10,23 +10,32 @@ import {TaskList, Task} from '../models/task';
 export class MainComponent implements OnInit {
 
   public loading = false;
-
   public listOfTaskList: Task[] = [];
-
   public tasks: TaskList[] = [];
-
   public name: any = '';
+  public logged = false;
+  public login = '';
+  public password = '';
+  public tok = '';
 
 
   constructor(private provider: ProviderService) { }
 
   ngOnInit() {
-    this.provider.getAllTaskLists().then(res => {
-      this.listOfTaskList = res;
-      setTimeout(() => {
-        this.loading = true;
-      }, 2000);
-    });
+
+    const token = localStorage.getItem('token');
+    this.tok = token;
+    if (token) {
+      this.logged = true;
+    }
+    if (this.logged) {
+      this.provider.getAllTaskLists().then(res => {
+        this.listOfTaskList = res;
+        setTimeout(() => {
+          this.loading = true;
+        }, 2000);
+      });
+    }
   }
   getTasks(task: Task) {
     this.provider.getTasksById(task.id).then(res => {
@@ -56,6 +65,30 @@ export class MainComponent implements OnInit {
         this.name = '';
       });
     }
+  }
+  auth() {
+    if (this.login !== '' && this.password !== '') {
+      this.provider.auth(this.login, this.password).then(res => {
+        localStorage.setItem('token', res.token);
+
+        this.logged = true;
+
+        this.provider.getAllTaskLists().then(r => {
+          this.listOfTaskList = r;
+          setTimeout(() => {
+            this.loading = true;
+          }, 2000);
+        });
+
+      });
+    }
+  }
+
+  logout() {
+    this.provider.logout().then(res => {
+      localStorage.clear();
+      this.logged = false;
+    });
   }
 
 }
